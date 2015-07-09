@@ -50,3 +50,27 @@ This is getting easier and easier, We've been blacklisted, and hint says it all.
 
 Check the header, change no to yes, and that is it :)
 
+
+# Level10
+
+
+Hate DOM XSS /skip
+
+
+
+# Level 9
+
+
+As we where logged in we had to check the cookie, to see whats going on, and you can notice user=Sk9ITitET0U%3D.
+
+
+%3D equals "=" so this could be base64, decoding it we get "JOHN+DOE". Next step encode "MARY+JANE" = "TUFSWStKQU5F"
+
+
+
+# Level8 
+
+Too lazy...
+
+
+
