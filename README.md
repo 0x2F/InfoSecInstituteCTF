@@ -42,3 +42,11 @@ Command:
 
 hydra ctf.infosecinstitute.com http-form-post"/ctf2/exercises/ex12.php:username=^USER^&password=^PASS^&logIn=Login:combination" -L users.txt -P password.txt -t 10 -w 30 -o hydra-http-post-attack.txt
 
+
+
+# Level11
+
+This is getting easier and easier, We've been blacklisted, and hint says it all.
+
+Check the header, change no to yes, and that is it :)
+
